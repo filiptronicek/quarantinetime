@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
-.mainCont {
+.mainCont{
   text-align: center;
-  font-size: 7rem;
   line-height: normal;
+  font-size: 3rem;
 }
-#counter {
+.mainCont h1 {
+  font-size: 7rem;
+  margin-top: -60px;
+}
+.counter {
   font-size: 12rem;
   font-family: 'Gochi Hand', cursive;
 }
