@@ -1,13 +1,19 @@
 .mainCont {
-    text-align: center;
-    font-size: 7rem;
-    line-height: normal;
+  text-align: center;
+  font-size: 7rem;
+  line-height: normal;
 }
 #counter {
-    font-size: 12rem;
+  font-size: 12rem;
 }
 @media only screen and (max-width: 700px) {
-    .mainCont {
-        font-size: 7vw;
-    }
+  .mainCont {
+    font-size: 7vw;
   }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #2e2e2e;
+    color: #e4e4e4 !important;
+  }
+}
