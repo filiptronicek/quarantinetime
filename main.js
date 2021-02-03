@@ -52,4 +52,4 @@ function UpdateTime() {
 UpdateTime();
 setTimeout(() => {
   setInterval(UpdateTime, 1000);
-}, 10000);
+}, 20000);
